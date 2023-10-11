@@ -20,9 +20,3 @@ function binarySearch(sortedArray, target) {
     }
     return -1; // Element not found
 }
-// const result = binarySearch(sortedArray, target);
-// if (result !== -1) {
-//     console.log(`Element ${target} found at index ${result}`);
-// } else {
-//     console.log(`Element ${target} not found in the array.${sortedArray}`);
-// }

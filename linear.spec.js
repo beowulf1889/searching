@@ -1,8 +1,4 @@
-//linear search test.
-// in need an algorithm of mixed numbers/
-// then I need to input those numbers and have it search for a number
-// have that number be expected . tobe
-// then I want f
+
 describe('Search Algorithms', function () {
     const sortedArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
     const target = 6;
