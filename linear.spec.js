@@ -29,4 +29,14 @@ describe('Search Algorithms', function () {
         const result = linearSearch(unSorted, target1);
         expect(result.toBe(10))
     });
+
+    it('should measure execution time for linear search', function(){
+        const startTime = performance.now();
+        linearSearch(sortedArray, target);
+        const endTime = performance.now();
+        const executionTime = endTime - startTime;
+
+        console.log('Linear Search Execution Time:', executionTime);
+         // expect(executionTime).toBeLessThan(10);
+    })
 });

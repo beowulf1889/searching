@@ -23,4 +23,13 @@ describe('Search Algorithms', function () {
         const result = binarySearch(unSorted, target1);
         expect(result.toBe(10))
     });
+    it('should measure execution time for binary search', function () {
+        const startTime = performance.now();
+        binarySearch(sortedArray, target);
+        const endTime = performance.now();
+        const executionTime = endTime - startTime;
+      
+        console.log('Binary Search Execution Time:', executionTime);
+         // expect(executionTime).toBeLessThan(10);
+    });
 });  
