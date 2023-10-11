@@ -30,6 +30,7 @@ describe('binarySearch', function () {
         binarySearch(sortedArray, target);
         const endTime = performance.now();
         const executionTime = endTime - startTime;
+        console.log('Binary Search Execution Time:', executionTime);
         expect(executionTime).toBeLessThan(10);
     });
 });
